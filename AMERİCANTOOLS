@@ -1,0 +1,30 @@
+Zombi-DDoS
+Windows sistemini kullanarak Dağıtılmış Hizmet Reddi Saldırısı gerçekleştirmek için bir araç takımı, bunun için ilk tetiklendiğinde Windows başlangıcına gömülen bir solucan tasarladım. Ve sonra sistem her açıldığında otomatik olarak başlayacak.
+
+Kurulum ve başlangıç
+Sunucuyu Yapılandır (Denetim Masası)
+Başlamak gerçekten çok basit, sadece devam edin ve deponuzu bir Windows makinesine kopyalayın.
+Şimdi bu Solucanın bulaştığı sistemleri takip edebileceğiniz PHP sunucunuzu yapılandırın.
+serverLütfen php dosyalarının tamamını sunucunuzdaki uygun bir dizine kopyalayın .
+Solucanı inşa etmek
+Şimdi zombie.cppherhangi uygun bir C++ derleyicisinde çalıştırın.
+SERVER_URLMakro tanımını sunucunuzun bağlantısıyla değiştirmeyi unutmayın .
+Bu, zombi yürütülebilir dosyasını başlangıç ​​klasörüne kaydederek programın Windows başlatıldığında tetiklenmesini sağlayacaktır.
+Bu çalıştırılabilir dosya farklı windows sistemleri arasında paylaşılabilir ve tüm bu kötü şöhretli zombiler için kontrol sizdedir.
+Kontrol paneli arayüzüyle çalışma
+ezgif com-kırpma
+
+Arayüz kullanımı oldukça basit.
+Saldırmak istediğiniz siteye girin ve ping limitini (tekrarlamaları) belirleyin.
+Vay canına, dünyanın dört bir yanındaki Windows sistemindeki zombiler senin için kötü şeyler yapıyor.
+Yakında, eğer canlı botların sayısı yeterli olursa, site kapanacaktır.
+Örnek
+Örnek bir sürüm burada barındırılmaktadır
+Gelecek Fikirleri
+Ayrıca solucanı daha bağımsız hale getirmek istiyorum.
+Klonlama ve kendini çoğaltma özelliğine sahip olması gerekir.
+Ayrıca şifreleyin, böylece izlenmesi çok zor olur.
+Ve daha nice haylaz fikirler.
+Katkı
+Lütfen sorunlarınızı dile getirmekten çekinmeyin.
+Çekme isteklerinizi memnuniyetle karşılarız.
